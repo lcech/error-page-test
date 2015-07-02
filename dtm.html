@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- header code -->
+    <script type="text/javascript">
+      var digitalData = digitalData || {};
+      digitalData.environment = "TEST"; //insert the current environemnt - "PROD" or "TEST" (for all non-PROD environemnts: ACC, INT, DEV)
+      digitalData.errorstatuscode = "404"; //insert the current returned status code - i.e. "404", "500", "Downtime", etc.
+      digitalData.networknode = "WEBSEAL"; //insert the current network node - i.e. "WEBSEAL", "IHS", etc.
+    </script>
+    <script src="https://assets.adobedtm.com/4bbad30c2651030b90bb4ca06457468048d4d393/satelliteLib-1ee58bc864300e10c945360246e8faed094359c8-staging.js"></script>
+    <!-- header code -->
+  <head>
+  <body>
+    <h1>Test Error Page (NON-PROD, DTM)</h1>
+    <!-- content -->
+    <script type="text/javascript">_satellite.pageBottom();</script>
+  </body>
+</html>
